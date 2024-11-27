@@ -1,0 +1,135 @@
+body
+ {color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    Margin: 5px;
+    text-align: justify;
+    
+    
+
+    /* Configuração de fundo e corpo de texto  */
+ }
+
+ul{
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+    align-items: end;
+    padding: 0px;
+
+
+}
+a {
+    color: white;
+}
+ .fixed-seção { /* define o estilo da seção */
+    position: fixed; /*fixação do bloco */
+    top: 30px; /* mediddas do bloco*/
+    left: 20px;
+    width: 300px;
+    height: 90vh;
+    background: linear-gradient(135deg, #000000a8, #301d019f);
+    border: 2px solid #2e2828;
+    border-radius: 30px;
+    padding: 20px;
+    box-sizing: border-box; 
+    box-shadow: 0 4px 8px rgba (0,0,0,0.1); /* sombreamento */
+   box-shadow:#ad958e;
+   
+    text-align: center;
+    font-size: 13px; /* tamanho da fonte*/
+    margin-top: 15px; /* margem do topo do título*/
+
+
+ }
+ .fixed-seção p { /* configuração do texto da caixa fixa*/
+text-align: center;
+font-size: 14px;
+color: aliceblue;
+
+ }
+
+
+ 
+ img{
+   width: 200px ;
+   height: 200px ;
+   border-radius: 100%;
+   border: 5px solid rgb(59, 15, 15);
+   display: block; /* Centraliza a imagem na horizontal */
+   margin: 0 auto; /* margem automática para centralização */
+ }
+
+ .center {
+   text-align:left;
+ }
+ 
+ .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+.social-links li {
+display: inline-block;
+margin:  0 10px;
+
+}
+
+.social-links a{
+    text-decoration: none; /*remove a linha*/
+    font-size: 18px; /**/
+    color: #942f2f;
+    transition: color 0.3; /*transição suave na mudança de cor */
+
+}
+.social-links a hover{
+    color: #005582
+}
+
+
+
+.content{ /* estiliza o conteúdo principal*/
+    margin-left: 360px;
+    padding: 20px;
+    
+}
+
+.Objetivo{ 
+    box-shadow: 10px 10px 10px 10px #201c1c71;
+    background: linear-gradient(135deg, #000000a8, #301d019f); /*degrade*/
+    margin: 20px 200px 40px 350px;
+    border-radius: 70px;
+    padding: 20px; /* Espaçamento interno */
+    border: 2px solid #2e2828;
+
+}
+
+
+.Formação{ 
+    box-shadow: 10px 10px 10px 10px #201c1c71;
+    background: linear-gradient(135deg, #000000a8, #301d019f);/*degrade*/
+    margin: 0px 200px 40px 350px;
+    border-radius: 70px;
+    padding: 20px; /* Espaçamento interno */
+    border: 2px solid #2e2828;
+
+}
+.Habilidades{ 
+    box-shadow: 10px 10px 10px 10px #201c1c71;
+    background: linear-gradient(135deg, #000000a8, #301d019f);/*degrade*/
+    margin: 0px 200px 40px 350px;
+    border-radius: 70px;
+    padding: 20px; /* Espaçamento interno */
+    border: 2px solid #2e2828;
+
+}
+.Skills{
+    box-shadow: 10px 10px 10px 10px #201c1c71;
+    background: linear-gradient(135deg, #000000a8, #301d019f);/*degrade*/
+    margin: 0px 200px 40px 350px;
+    border-radius: 70px;
+    padding: 20px; /* Espaçamento interno */
+    border: 2px solid #2e2828;
+
+}

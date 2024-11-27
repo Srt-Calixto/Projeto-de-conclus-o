@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela   </title>
+    <link rel="stylesheet" href="forms.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"> Sofia </a>
+
+        <nav>
+            <a href="Site.html"> Home </a>
+            <a href="currículo.html"> Currículo  </a>
+            <a href="Portifólio.html"> Portifólio  </a>
+            <a href="tabela.html"> Tabela   </a>
+            <a href="forms.html" class="active"> Pesquisa de Satisfação  </a>
+            <a href="Áreas.html"> Áreas do Saber  </a>
+            <a href="IOT.html" > IOT  </a>
+
+
+        </nav>
+
+    </header>
+    <section class="tabela">
+            <div class="tabela-img">
+            </div>
+            <div class="tabelacontent">
+                <br><br><br><br><br><br><br>
+                <div class="form-container">
+                    <h1>Formulário</h1>
+            
+                    <!-- Informações Básicas -->
+                    <div class="form-section">
+                        <h2>Informações Básicas</h2>
+                        <form>
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+                            
+                            <label for="email">Gmail:</label>
+                            <input type="email" id="email" name="email" placeholder="Digite seu Gmail" required>
+                            
+                            <label>Gênero:</label>
+                            <div class="radio-group">
+                                <label><input type="radio" name="gender" value="Masculino" required> Masculino</label>
+                                <label><input type="radio" name="gender" value="Feminino" required> Feminino</label>
+                                <label><input type="radio" name="gender" value="Outro" required> Outro</label>
+                            </div>
+                        </form>
+                    </div>
+            
+                    <!-- Informações Pessoais -->
+                    <div class="form-section">
+                        <h2>Informações Pessoais</h2>
+                        <label for="address">Endereço:</label>
+                        <input type="text" id="address" name="address" placeholder="Digite seu endereço" required>
+                        
+                        <label for="city">Cidade:</label>
+                        <input type="text" id="city" name="city" placeholder="Digite sua cidade" required>
+                        
+                        <label for="state">Estado:</label>
+                        <input type="text" id="state" name="state" placeholder="Digite seu estado" required>
+                        
+                        <label for="cep">CEP:</label>
+                        <input type="text" id="cep" name="cep" placeholder="Digite seu CEP" required>
+                    </div>
+            
+                    <!-- Feedback -->
+                    <div class="form-section">
+                        <h2>Feedback</h2>
+                        <label for="feedback">Comentários:</label>
+                        <textarea id="feedback" name="feedback" rows="5" placeholder="Deixe seu feedback aqui"></textarea>
+                    </div>
+            
+                    <!-- Avaliação -->
+                    <div class="form-section">
+                        <h2>Avaliação</h2>
+                        <div class="rating">
+                            <input type="radio" id="star5" name="rating" value="5"><label for="star5" title="5 estrelas">★</label>
+                            <input type="radio" id="star4" name="rating" value="4"><label for="star4" title="4 estrelas">★</label>
+                            <input type="radio" id="star3" name="rating" value="3"><label for="star3" title="3 estrelas">★</label>
+                            <input type="radio" id="star2" name="rating" value="2"><label for="star2" title="2 estrelas">★</label>
+                            <input type="radio" id="star1" name="rating" value="1"><label for="star1" title="1 estrela">★</label>
+                        </div>
+                    </div>
+            
+                    <!-- Botão de Envio -->
+                    <div class="form-section">
+                        <button type="submit" class="submit-btn">Enviar</button>
+                    </div>
+                </div>
+            </body>
+            </html>

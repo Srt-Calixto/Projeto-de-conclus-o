@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{/* estilização da cabeça do site*/
+    /**/
+    margin: 0;
+    padding: 40;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{ /*tamanho da fonte */
+    font-size: 62.5%;
+}
+
+body{ /*estilização do corpo do site, cor de fundo e afins*/
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+header{
+    margin-top: 20px; /*margem da cabeça do site*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between; /*espaço entre as palavras*/
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{ /*estilização de cor, tamanho e transição da logo*/
+    font-size: 3rem;
+    color: #b74b4b;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.logo:hover{ /*animação ao passar o cursor pela logo*/
+    transform: scale(1.1);
+}
+
+nav a{ /*configurações do cabeçalho*/
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active{/*cor e animação de transição do cabeçalho*/
+    color: #b74b4b;
+    border-bottom: 3px solid #b74b4b;
+}
+.tabel{ /*ajustes e centralizações*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: rgb(117, 42, 42);
+}
+@media(max-width:995px){ /*configuração de animação e transição entre paginas do cabeçalho*/
+    nav{
+        position: absolute;
+        display: none;
+        top: 0;
+        right: 0;
+        width: 40%;
+        border-left: 3px solid #f8f8f8;
+        border-bottom: 3px solid #b74b4b;
+        border-bottom-left-radius: 2rem;
+        padding: 1rem solid;
+        background-color: #161616;
+        border-top: 0.1rem solid rgba(0,0,0,0.1);
+    }
+
+    nav.active{/*fixação do cabeçalho*/
+        display: block;
+    }
+
+    nav a{ /**/
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    nav a:hover,
+    nav a.active{
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border-bottom: 0.5rem solid #ffffff;
+    }
+}
+
+section{ /**/
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+.tabela{ /*ajustes e centralizações*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
+}
+
+
+span{ /*cor do nome*/
+    color: #ffffff;
+}
+
+
+/*--------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    background-color: #000000;
+    background-color: #000000;
+    color: white;
+    padding: 15px 0;
+}
+
+
+
+h1 {
+    margin: 0;
+}
+
+main {
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 50px 0;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.styled-table thead tr {
+    background-color: #5c1919;
+    text-align: center;
+}
+
+.styled-table th, .styled-table td {
+    padding: 5px 5px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #5c1919;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #000000;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #5c1919;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    background-color: #5c1919;
+}
+
+.styled-table td[rowspan] {
+    vertical-align: middle;
+}
